@@ -1,0 +1,505 @@
+<?php
+class Level{
+    public $lvl;
+    public $lvlHead;
+    public $type;
+    public $question;
+    public $bgImg;
+    public $color;
+    public $key;
+    public $questionImg;
+    public $class = "prevent_sel";
+}
+
+$lvl1 = new Level();
+$lvl1->lvlHead = "Level 1: The Journey Begins";
+$lvl1->lvl = "1";
+$lvl1->type = "basic";
+$lvl1->question = "If you have a bee in your hand, what do you have in your eye?";
+$lvl1->bgImg = "url('assets/img/wormhole_1.jpg')";
+$lvl1->key = "beauty";
+$lvl1->questionImg = null;
+$lvl1->color = "white";
+
+$lvl2 = new Level();
+$lvl2->lvlHead = "Level 2: Maze of Riddles - 1st Floor";
+$lvl2->lvl = "2";
+$lvl2->type = "basic";
+$lvl2->question = "This thing all things devours;
+Birds, beasts, trees, flowers;
+Gnaws iron, bites steel;
+Grinds hard stones to meal;
+Slays king, ruins town,
+And beats mountain down.";
+$lvl2->bgImg = "url('assets/img/maze_2.jpg')";
+$lvl2->key = "time";
+$lvl2->questionImg = null;
+$lvl2->color = "white";
+
+$lvl3 = new Level();
+$lvl3->lvlHead = "Level 3: Maze of Riddles - 2nd Floor";
+$lvl3->lvl = "3";
+$lvl3->type = "basic";
+$lvl3->question = "It cannot be seen, cannot be felt,
+Cannot be heard, cannot be smelt.
+It lies behind stars and under hills,
+And empty holes it fills.
+It comes first and follows after,
+Ends life, kills laughter.";
+$lvl3->bgImg = "url('assets/img/alicesmaze_3.jpg')";
+$lvl3->key = "dark";
+$lvl3->questionImg = null;
+$lvl3->color = "white";
+
+$lvl4 = new Level();
+$lvl4->lvlHead = "Level 4: Maze of Riddles - 3rd Floor";
+$lvl4->lvl = "4";
+$lvl4->type = "basic";
+$lvl4->question = "A lotus leaf sprouts in a pond and doubles itself each day. On the 30th day it covers the entire pond, 
+on which day was the pond half covered";
+$lvl4->bgImg = "url('assets/img/pond_4.jpg')";
+$lvl4->key = "29th";
+$lvl4->questionImg = null;
+$lvl4->color = "white";
+
+$lvl5 = new Level();
+$lvl5->lvlHead = "Level 5: Valley Of Dreams";
+$lvl5->lvl = "5";
+$lvl5->type = "basic";
+$lvl5->question = "Who dares to pass through the gate..? Dites 'ami' et allez";
+$lvl5->bgImg = "url('assets/img/gatekeeper_5.jpg')";
+$lvl5->key = "friend";
+$lvl5->questionImg = null;
+$lvl5->color = "white";
+
+$lvl6 = new Level();
+$lvl6->lvlHead = "Level 6: ";
+$lvl6->lvl = "6";
+$lvl6->type = "basic";
+$lvl6->question = "<b style='color:white'>The Treasure of Time is Timeless</b>";
+$lvl6->bgImg = "url('assets/img/time_6.jpg')";
+$lvl6->key = "the treasure of time is timeless";
+$lvl6->questionImg = null;
+$lvl6->color = "black";
+$lvl6->class = "";
+
+$lvl7 = new Level();
+$lvl7->lvl = "7";
+$lvl7->type = "custom";
+$lvl7->key = "golden key";
+$lvl7->filename = "levels/keys_lvl.php";
+
+
+$lvl8 = new Level();
+$lvl8->lvl = "8";
+$lvl8->type = "custom";
+$lvl8->key = "3rd postion";
+$lvl8->filename = "levels/postion_lvl.php";
+
+$lvl9 = new Level();
+$lvl9->lvl = "9";
+$lvl9->type = "custom";
+$lvl9->key = "helium";
+$lvl9->filename = "levels/shadowHidden_lvl.php";
+
+$lvl10 = new Level();
+$lvl10->lvl = "10";
+$lvl10->type = "custom";
+$lvl10->key = "coffee";
+$lvl10->filename = "levels/title_lvl.php";
+
+$lvl11 = new Level();
+$lvl11->lvlHead = "Level 11: Valley of Images - 1st floor";
+$lvl11->lvl = "11";
+$lvl11->type = "image";
+$lvl11->question = "Find the connection bettween the images";
+$lvl11->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl11->key = "monaco";
+$lvl11->questionImg = array("biscuit.jpg","3girls.jpg");
+$lvl11->color = "black";
+
+$lvl11_1 = new Level();
+$lvl11_1->lvlHead = "Level 12: Valley of Images - 2nd FLoor";
+$lvl11_1->lvl = "12";
+$lvl11_1->type = "image";
+$lvl11_1->question = "Find the connection bettween the images";
+$lvl11_1->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl11_1->key = "ellen degeneres";
+$lvl11_1->questionImg = array("headsup.jpg","psych.jpg");
+$lvl11_1->color = "black";
+
+$lvl11_2 = new Level();
+$lvl11_2->lvlHead = "Level 13: Valley of Images - 3rd FLoor";
+$lvl11_2->lvl = "13";
+$lvl11_2->type = "image";
+$lvl11_2->question = "Connect the images and find the personality";
+$lvl11_2->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl11_2->key = "larry page";
+$lvl11_2->questionImg = array("kitty.jpg","102.jpg","103.jpg","aero.jpg");
+$lvl11_2->color = "black";
+
+$lvl11_3 = new Level();
+$lvl11_3->lvlHead = "Level 14: Valley of Images - 4th FLoor";
+$lvl11_3->lvl = "14";
+$lvl11_3->type = "image";
+$lvl11_3->question = "Can you unmask the question";
+$lvl11_3->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl11_3->key = "elon musk";
+$lvl11_3->questionImg = array("61kUW4gjE3L.jpg","bbt.jpg","105.jpg","zip.png");
+$lvl11_3->color = "black";
+
+$lvl12 = new Level();
+$lvl12->lvlHead = "Level 15: Valley of Images - 5th Floor";
+$lvl12->lvl = "15";
+$lvl12->type = "image";
+$lvl12->question = "Add three match sticks to get the highest three digit number. Get the Link between that number and the given images";
+$lvl12->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl12->key = "michigan";
+$lvl12->questionImg = array("12_a.jpg","12_b.jpg","12_c.jpg");
+$lvl12->color = "black";
+
+$lvl13 = new Level();
+$lvl13->lvlHead = "Level 16: Valley of Images - 6th Floor";
+$lvl13->lvl = "16";
+$lvl13->type = "image";
+$lvl13->question = "Get the Link between the given images";
+$lvl13->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl13->key = "alan shepard";
+$lvl13->questionImg = array("moon.jpg","golf.jpg");
+$lvl13->color = "black";
+
+$lvl14 = new Level();
+$lvl14->lvlHead = "Level 17: Valley of Images - 7th Floor";
+$lvl14->lvl = "17";
+$lvl14->type = "image";
+$lvl14->question = "Get the Link between the given images";
+$lvl14->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvl14->key = "parvez rasool";
+$lvl14->questionImg = array("14_a.jpg","14_b.jpg");
+$lvl14->color = "black";
+
+$lvl15 = new Level();
+$lvl15->lvlHead = "Level 18: Valley of Images - 8th Floor";
+$lvl15->lvl = "18";
+$lvl15->type = "image";
+$lvl15->question = "Reach a state of perfect happiness, oblivious of everything else.<br>
+I was born in 2001 almost extinct by 2014, still loved by many succeeded by a sloth.<br>
+Most of us must have seen some form of the below picture";
+$lvl15->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvl15->key = "windows xp";
+$lvl15->questionImg = array("15.jpg");
+$lvl15->color = "black";
+
+$lvl16 = new Level();
+$lvl16->lvlHead = "Level 19: Valley of Images - 9th Floor";
+$lvl16->lvl = "19";
+$lvl16->type = "image";
+$lvl16->question = "Connect the images<br>Hint: Tangle";
+$lvl16->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvl16->key = "iota";
+$lvl16->questionImg = array("16_a.jpg","16_b.jpg","16_c.jpg");
+$lvl16->color = "black";
+
+$lvl17 = new Level();
+$lvl17->lvlHead = "Level 20: Valley of Images - 10th Floor";
+$lvl17->lvl = "20";
+$lvl17->type = "image";
+$lvl17->question = "Connect the images";
+$lvl17->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvl17->key = "ios";
+$lvl17->questionImg = array("17_a.png","17_b.jpg","17_c.png");
+$lvl17->color = "black";
+
+$lvl18 = new Level();
+$lvl18->lvlHead = "Level 21: Valley of Images - 11th Floor";
+$lvl18->lvl = "21";
+$lvl18->type = "image";
+$lvl18->question = "Connect the images";
+$lvl18->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvl18->key = "oneplus5t";
+$lvl18->questionImg = array("18_a.jpg","18_b.jpg","18_c.jpg");
+$lvl18->color = "black";
+
+$lvl19 = new Level();
+$lvl19->lvlHead = "Level 22: Connect";
+$lvl19->lvl = "22";
+$lvl19->type = "image";
+$lvl19->question = '<audio controls="">
+<source src="assets/img/1.mp3" type="audio/mpeg"/>
+</audio><br><audio controls="">
+<source src="assets/img/2.mp3" type="audio/mpeg"/>
+</audio>';
+$lvl19->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl19->key = "south africa";
+$lvl19->questionImg = array("19.jpg");
+$lvl19->color = "black";
+
+$lvl20 = new Level();
+$lvl20->lvl = "23";
+$lvl20->type = "custom";
+$lvl20->key = "a song of ice and fire";
+$lvl20->filename = "levels/rune_lvl.php";
+
+$lvl21_1 = new Level();
+$lvl21_1->lvlHead = "Level 24: Base 2";
+$lvl21_1->lvl = "24";
+$lvl21_1->type = "image";
+$lvl21_1->question = "Solve me first: <br> 100^3x100^2/(5x2)+500x(8/2)x500+(2000/2)x10^2+10^2<br>";
+$lvl21_1->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl21_1->key = "patna";
+$lvl21_1->questionImg =  array("1001.jpg","1002.jpg","1003.jpg","code.jpg");
+$lvl21_1->color = "black";
+
+$lvl22_2 = new Level();
+$lvl22_2->lvlHead = "Level 25";
+$lvl22_2->lvl = "25";
+$lvl22_2->type = "basic";
+$lvl22_2->question = 'Find the <a href="assets/img/secret.txt">secret</a> doc';
+$lvl22_2->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl22_2->key = "all is fair in love and war";
+$lvl22_2->questionImg = "";
+$lvl22_2->color = "black";
+
+
+$lvl21 = new Level();
+$lvl21->lvl = "25";
+$lvl21->type = "custom";
+$lvl21->key = "bazzinga";
+$lvl21->filename = "levels/attribute_lvl.php";
+
+$lvl22 = new Level();
+$lvl22->lvlHead = "Level 26";
+$lvl22->lvl = "26";
+$lvl22->type = "custom";
+$lvl22->key = "save me";
+$lvl22->filename = "levels/get_lvl.php";
+
+$lvl23 = new Level();
+$lvl23->lvlHead = "Level 28";
+$lvl23->lvl = "28";
+$lvl23->type = "basic";
+$lvl23->question = "I turn polar bears white 
+And I will make you cry. 
+I make guys have to pee 
+And girls comb their hair. 
+I make celebrities look stupid 
+And normal people look like celebrities. 
+I turn pancakes brown 
+And make your champagne bubble. 
+If you squeeze me, I'll pop. 
+If you look at me, you'll pop. 
+Can you answer this riddle?";
+$lvl23->bgImg = "url('assets/img/linesbg.png')";
+$lvl23->key = "bitesys rocks";
+$lvl23->questionImg = null;
+$lvl23->color = "white";
+
+$lvl24 = new Level();
+$lvl24->lvlHead = "Level 29";
+$lvl24->lvl = "29";
+$lvl24->type = "basic";
+$lvl24->question = "Dont be afraid to look for help when needed";
+$lvl24->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl24->key = "dream is reality";
+$lvl24->questionImg = null;
+$lvl24->color = "black";
+
+$lvl29 = new Level();
+$lvl29->lvl = "30";
+$lvl29->type = "custom";
+$lvl29->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
+$lvl29->filename = "levels/puzzle_lvl.php";
+
+$lvl30 = new Level();
+$lvl30->lvl = "31";
+$lvl30->type = "custom";
+$lvl30->key = "";
+$lvl30->filename = "levels/auth_lvl.php";
+
+$lvlz = new Level();
+$lvlz->lvlHead = "Level 32";
+$lvlz->lvl = "32";
+$lvlz->type = "basic";
+$lvlz->question = "25.5788|91.8933";
+$lvlz->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlz->key = "shillong";
+$lvlz->questionImg = null;
+$lvlz->color = "white";
+
+$lvla = new Level();
+$lvla->lvlHead = "Level 33";
+$lvla->lvl = "33";
+$lvla->type = "basic";
+$lvla->question = "213471118294776";
+$lvla->bgImg = "url('assets/img/whitebg.jpg')";
+$lvla->key = "lucas numbers";
+$lvla->questionImg = null;
+$lvla->color = "black";
+
+$lvlb = new Level();
+$lvlb->lvlHead = "Level 34";
+$lvlb->lvl = "34";
+$lvlb->type = "basic";
+$lvlb->question = ".-- .... ---<br>Hint: Someone related to it";
+$lvlb->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlb->key = "tedros adhanom";
+$lvlb->questionImg = null;
+$lvlb->color = "white";
+
+$lvlc = new Level();
+$lvlc->lvlHead = "Level 35";
+$lvlc->lvl = "35";
+$lvlc->type = "basic";
+$lvlc->question = "U r caught in a room... password is ****<br>
+Riddle is - manish knows the product of the no.s and Ashish knows the sum of the no.s<br>
+Manish - i cant tell u the 2 no.s<br>
+Aashish  - i knew u couldnt<br>
+Manish - now i know what the 2 no.s are</br>
+Aashish - Now i also know the no.s</br>";
+$lvlc->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlc->key = "1752";
+$lvlc->questionImg = null;
+$lvlc->color = "black";
+
+$lvld = new Level();
+$lvld->lvlHead = "Level 36";
+$lvld->lvl = "36";
+$lvld->type = "basic";
+$lvld->question = "let the children come<br> Hint: The actual question is 'what you see right now is made by me'";
+$lvld->bgImg = "url('assets/img/whitebg.jpg')";
+$lvld->key = "tim berners-lee";
+$lvld->questionImg = null;
+$lvld->color = "black";
+
+$lvle = new Level();
+$lvle->lvlHead = "Level 37";
+$lvle->lvl = "37";
+$lvle->type = "basic";
+$lvle->question = "<a href='https://www.youtube.com/watch?v=sDjI020jw7A'>LINK</a>";
+$lvle->bgImg = "url('assets/img/whitebg.jpg')";
+$lvle->key = "susan wojcicki";
+$lvle->questionImg = null;
+$lvle->color = "black";
+
+$lvlf = new Level();
+$lvlf->lvlHead = "Level 38";
+$lvlf->lvl = "38";
+$lvlf->type = "basic";
+$lvlf->question = ": ( ) {  : | :  &  } ; :     :'I ran here 1st'";
+$lvlf->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlf->key = "ibm system 360";
+$lvlf->questionImg = null;
+$lvlf->color = "black";
+
+$lvlg = new Level();
+$lvlg->lvlHead = "Level 39";
+$lvlg->lvl = "39";
+$lvlg->type = "basic";
+$lvlg->question = '<a href="assets/img/file91.txt">I\'m this.</a>';
+$lvlg->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlg->key = "wakanda";
+$lvlg->questionImg = null;
+$lvlg->color = "black";
+
+
+$lvlh = new Level();
+$lvlh->lvlHead = "Level 40";
+$lvlh->lvl = "40";
+$lvlh->type = "image";
+$lvlh->question = "The time should be";
+$lvlh->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlh->key = "10:10";
+$lvlh->questionImg =  array("clock.jpg");
+$lvlh->color = "black";
+
+$lvlEnd = new Level();
+$lvlEnd->lvlHead = "Level 41";
+$lvlEnd->lvl = "41";
+$lvlEnd->type = "basic";
+$lvlEnd->question = "put 'one' and submit";
+$lvlEnd->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlEnd->key = "one";
+$lvlEnd->questionImg = null;
+$lvlEnd->color = "black";
+
+$lvli = new Level();
+$lvli->lvlHead = "Level 42";
+$lvli->lvl = "42";
+$lvli->type = "basic";
+$lvli->question = '600233266<br>Hint 1: 1st step get the ip from the question';
+$lvli->bgImg = "url('assets/img/whitebg.jpg')";
+$lvli->key = "www.bitesysiims.org";
+$lvli->questionImg = null;
+$lvli->color = "black";
+
+$lvlj = new Level();
+$lvlj->lvlHead = "Level 43";
+$lvlj->lvl = "43";
+$lvlj->type = "basic";
+$lvlj->question = '<audio controls="">
+<source src="assets/img/xyz.mp3" type="audio/mpeg"/>
+</audio>';
+$lvlj->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlj->key = "james bond theme";
+$lvlj->questionImg = null;
+$lvlj->color = "black";
+
+$lvlk = new Level();
+$lvlk->lvlHead = "Level 44";
+$lvlk->lvl = "44";
+$lvlk->type = "basic";
+$lvlk->question = 'It was the best of times 
+It was the worst of times
+Away with the worst 
+And I get a spark of __<br>HINT :"Away with the worst times" you are left with..';
+$lvlk->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlk->key = "madness";
+$lvlk->questionImg = null;
+$lvlk->color = "black";
+
+$lvln = new Level();
+$lvln->lvlHead = "Level 45";
+$lvln->lvl = "45";
+$lvln->type = "basic";
+$lvln->question = 'He commented on me at the zoo';
+$lvln->bgImg = "url('assets/img/whitebg.jpg')";
+$lvln->key = "interesting";
+$lvln->questionImg = null;
+$lvln->color = "black";
+
+$lvlaa = new Level();
+$lvlaa->lvlHead = "Level 46";
+$lvlaa->lvl = "46";
+$lvlaa->type = "image";
+$lvlaa->question = "Connect";
+$lvlaa->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlaa->key = "flintheart glomgold";
+$lvlaa->questionImg =  array("101.jpg","101_a.jpg","101_b.jpg","101_c.jpg");
+$lvlaa->color = "black";
+
+$lvlaaa = new Level();
+$lvlaaa->lvlHead = "Level 47";
+$lvlaaa->lvl = "47";
+$lvlaaa->type = "image";
+$lvlaaa->question = "gimlwp pn mfdgsutxamf bxgzlgmwzc<br>cipher";
+$lvlaaa->bgImg = "url('assets/img/whitebg.jpg')";
+$lvlaaa->key = "claude elwood shannon";
+$lvlaaa->questionImg =  array("xxx.jpg");
+$lvlaaa->color = "black";
+
+
+$endFinal = new Level();
+$endFinal->lvl = "48";
+$endFinal->type = "endFinal";
+$endFinal->key = "qwe";
+
+
+
+
+
+
+$levels = array("",$lvl1,$lvl2,$lvl3,$lvl4,$lvl5,$lvl6,$lvl7,$lvl8,$lvl9,$lvl10,$lvl11,$lvl11_1,$lvl11_2,$lvl11_3,
+$lvl12,$lvl13,$lvl14,$lvl15,$lvl16,$lvl17,$lvl18,$lvl19,$lvl20,$lvl21_1,$lvl22_2,$lvl21,$lvl22,$lvl23,$lvl24,$lvl29,$lvl30,$lvlz,$lvla,$lvlb,$lvlc,$lvld,$lvle,$lvlf,
+$lvlg,$lvlh,$lvlEnd,$lvli,$lvlj,$lvlk,$lvln,$lvlaa,$lvlaaa,$endFinal);
+
+?>
