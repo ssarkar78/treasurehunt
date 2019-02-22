@@ -199,11 +199,11 @@ $lvl15->color = "black";
 $lvl16 = new Level();
 $lvl16->lvlHead = "Level 19: Valley of Images - 9th Floor";
 $lvl16->lvl = "19";
-$lvl16->type = "image";
+$lvl16->type = "endFinal";
 $lvl16->question = "Connect the images<br>Hint: Tangle";
 $lvl16->bgImg = "url('assets/img/whiteBG.jpg')";
 $lvl16->key = "iota";
-$lvl16->questionImg = array("16_a.jpg","16_b.jpg","16_c.jpg");
+$lvl16->questionImg = null;
 $lvl16->color = "black";
 
 $lvl17 = new Level();
