@@ -223,86 +223,82 @@ $lvl18->questionImg = array("18_a.jpg","18_b.jpg","18_c.jpg");
 $lvl18->color = "black";
 
 $lvl19 = new Level();
-$lvl19->lvlHead = "Level 22: Connect";
+$lvl19->lvlHead = "Level 22: Valley of Images - 12th FLoor";
 $lvl19->lvl = "22";
 $lvl19->type = "image";
-$lvl19->question = '<audio controls="">
-<source src="assets/img/1.mp3" type="audio/mpeg"/>
-</audio><br><audio controls="">
-<source src="assets/img/2.mp3" type="audio/mpeg"/>
-</audio>';
+$lvl19->question = "Shortcuts will not get you through";
 $lvl19->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl19->key = "south africa";
-$lvl19->questionImg = array("19.jpg");
+$lvl19->key = "Hassenfeld Brothers";
+$lvl19->questionImg = array("22/22_a.jpg","22/22_b.jpg");
 $lvl19->color = "black";
 
 $lvl20 = new Level();
 $lvl20->lvl = "23";
-$lvl20->type = "custom";
-$lvl20->key = "a song of ice and fire";
-$lvl20->filename = "levels/rune_lvl.php";
+$lvl20->type = "basic";
+$lvl20->question ="Sum the number of zeroes in the Netflix prize and multiply that with no of actors who have played the role of harry potter in the harry potter movie franchise?"
+$lvl20->key = "24";
+$lvl20->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl20->questionImg = null;
+$lvl20->color = "black";
 
 $lvl21_1 = new Level();
-$lvl21_1->lvlHead = "Level 24: Base 2";
+$lvl21_1->lvlHead = "Level 24: Valley of Images - 13th FLoor";
 $lvl21_1->lvl = "24";
 $lvl21_1->type = "image";
-$lvl21_1->question = "Solve me first: <br> 100^3x100^2/(5x2)+500x(8/2)x500+(2000/2)x10^2+10^2<br>";
+$lvl21_1->question = "Identify this movie and thus the actor who was executed in the other movie by the same writer?";
 $lvl21_1->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl21_1->key = "patna";
-$lvl21_1->questionImg =  array("1001.jpg","1002.jpg","1003.jpg","code.jpg");
+$lvl21_1->key = "graham greene";
+$lvl21_1->questionImg = array("24/24_a.jpg","24/24_b.jpg");
 $lvl21_1->color = "black";
 
 $lvl22_2 = new Level();
 $lvl22_2->lvlHead = "Level 25";
 $lvl22_2->lvl = "25";
 $lvl22_2->type = "basic";
-$lvl22_2->question = 'Find the <a href="assets/img/secret.txt">secret</a> doc';
+$lvl22_2->question = 'X is a clan of people who are mercenaries that communicate using gestural language with no facial expression. They practice a special form of martial art and teaching this to others is forbidden. Identify X. (Hint: Silence can be of three kinds)';
 $lvl22_2->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl22_2->key = "all is fair in love and war";
+$lvl22_2->key = "ademre";
 $lvl22_2->questionImg = "";
 $lvl22_2->color = "black";
 
 
 $lvl21 = new Level();
-$lvl21->lvl = "25";
-$lvl21->type = "custom";
-$lvl21->key = "bazzinga";
-$lvl21->filename = "levels/attribute_lvl.php";
+$lvl21->lvlHead = "Level 26";
+$lvl21->lvl = "26";
+$lvl21->type = "image";
+$lvl21->question = "Identify the link between these two images.";
+$lvl21->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl21->key = "emma watson";
+$lvl21->questionImg =  array("26/26_a.jpg","26/26_b.jpg");
+$lvl21->color = "black";
 
 $lvl22 = new Level();
-$lvl22->lvlHead = "Level 26";
-$lvl22->lvl = "26";
-$lvl22->type = "custom";
-$lvl22->key = "save me";
-$lvl22->filename = "levels/get_lvl.php";
+$lvl22->lvlHead = "Level 27";
+$lvl22->lvl = "27";
+$lvl22->type = "image";
+$lvl22->question = "Identify the author";
+$lvl22->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl22->key = "neil gaiman";
+$lvl22->questionImg =  array("27/1.jpg","27/2.jpg");
+$lvl22->color = "black";
 
 $lvl23 = new Level();
 $lvl23->lvlHead = "Level 28";
 $lvl23->lvl = "28";
-$lvl23->type = "basic";
-$lvl23->question = "I turn polar bears white 
-And I will make you cry. 
-I make guys have to pee 
-And girls comb their hair. 
-I make celebrities look stupid 
-And normal people look like celebrities. 
-I turn pancakes brown 
-And make your champagne bubble. 
-If you squeeze me, I'll pop. 
-If you look at me, you'll pop. 
-Can you answer this riddle?";
-$lvl23->bgImg = "url('assets/img/linesbg.png')";
-$lvl23->key = "bitesys rocks";
-$lvl23->questionImg = null;
-$lvl23->color = "white";
+$lvl23->type = "image";
+$lvl23->question = "After looking at the given pictures, which brand comes to mind?";
+$lvl23->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl23->key = "head n shoulders";
+$lvl23->questionImg =  array("28/1.jpg","28/2.jpg");
+$lvl23->color = "black";
 
 $lvl24 = new Level();
 $lvl24->lvlHead = "Level 29";
 $lvl24->lvl = "29";
-$lvl24->type = "basic";
-$lvl24->question = "Dont be afraid to look for help when needed";
+$lvl24->type = "image";
+$lvl24->question = "Identify the link between these two pictures?";
 $lvl24->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl24->key = "dream is reality";
+$lvl24->key = "april bowlby";
 $lvl24->questionImg = null;
 $lvl24->color = "black";
 
