@@ -36,9 +36,7 @@ if($result = $mysqli->query($query)){
 }
 
 
-?><br>
-Top players please have proper sleep; its looks like most of you were awake whole night :)</br>
-Any hints, if given, for the top levels will be post 4pm IST.
+?>
 </div>
 <?php include('footer.php'); ?>
 </body>
