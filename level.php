@@ -228,14 +228,14 @@ $lvl19->lvl = "22";
 $lvl19->type = "image";
 $lvl19->question = "Shortcuts will not get you through";
 $lvl19->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl19->key = "Hassenfeld Brothers";
+$lvl19->key = "hassenfeld brothers";
 $lvl19->questionImg = array("22/22_a.jpg","22/22_b.jpg");
 $lvl19->color = "black";
 
 $lvl20 = new Level();
 $lvl20->lvl = "23";
 $lvl20->type = "basic";
-$lvl20->question ="Sum the number of zeroes in the Netflix prize and multiply that with no of actors who have played the role of harry potter in the harry potter movie franchise?"
+$lvl20->question ="Sum the number of zeroes in the Netflix prize and multiply that with no of actors who have played the role of harry potter in the harry potter movie franchise?";
 $lvl20->key = "24";
 $lvl20->bgImg = "url('assets/img/whitebg.jpg')";
 $lvl20->questionImg = null;

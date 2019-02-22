@@ -6,7 +6,7 @@ header("Refresh: 120; URL=$url1");
 
 </script>
 <div id="game_head">
-    <p style="font-weight:500;color:white" >Level 30: Way to Valley Of Dreams</p>
+    <p style="font-weight:500;color:white" >Level 19: Way to Valley Of Dreams</p>
     <pre style="font-weight:500;color:white">The door way is locked with magic, solve the puzzle to unlock the door..</pre>
 </div>
 <div id="game_body">
