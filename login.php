@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
         $phone = $mysqli->real_escape_string($_POST['phone']);
         $pwd = bin2hex(openssl_random_pseudo_bytes(4));
         $query = "INSERT INTO user_details (u_name, u_email, u_college, u_contact, u_pwd) VALUES ('".$fname."', '".$email."', '".$college."',".$phone.", '".$pwd."')";
-        echo $query;
+        //echo $query;
         $result = $mysqli->query($query);
         if($result){
             sendPwd($pwd,$email);
