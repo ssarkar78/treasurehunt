@@ -15,9 +15,9 @@ $lvl1 = new Level();
 $lvl1->lvlHead = "Level 1: The Journey Begins";
 $lvl1->lvl = "1";
 $lvl1->type = "basic";
-$lvl1->question = "If you have a bee in your hand, what do you have in your eye?";
+$lvl1->question = "I got my first famous line after an angry blogger misquoted me in his ranty blog. Guess who got famous? ";
 $lvl1->bgImg = "url('assets/img/wormhole_1.jpg')";
-$lvl1->key = "beauty";
+$lvl1->key = "biswa kalyan rath";
 $lvl1->questionImg = null;
 $lvl1->color = "white";
 
@@ -25,14 +25,14 @@ $lvl2 = new Level();
 $lvl2->lvlHead = "Level 2: Maze of Riddles - 1st Floor";
 $lvl2->lvl = "2";
 $lvl2->type = "basic";
-$lvl2->question = "This thing all things devours;
-Birds, beasts, trees, flowers;
-Gnaws iron, bites steel;
-Grinds hard stones to meal;
-Slays king, ruins town,
-And beats mountain down.";
+$lvl2->question = "There are 100 doors and 100 children in a school. All the doors are closed.
+The first touches all the doors in multiples of 1. The second child touches all the doors in multiples of 2 and 
+this continues till the 100th child touches doors in multiples of 100.
+When the child touches a door, it either closes if it was opened and opens if it was closed.
+At the end, after all the children have touched their respective doors, a few of them remain open.
+What is the sum of all the doors that remain closed? ";
 $lvl2->bgImg = "url('assets/img/maze_2.jpg')";
-$lvl2->key = "time";
+$lvl2->key = "385";
 $lvl2->questionImg = null;
 $lvl2->color = "white";
 
@@ -40,14 +40,11 @@ $lvl3 = new Level();
 $lvl3->lvlHead = "Level 3: Maze of Riddles - 2nd Floor";
 $lvl3->lvl = "3";
 $lvl3->type = "basic";
-$lvl3->question = "It cannot be seen, cannot be felt,
-Cannot be heard, cannot be smelt.
-It lies behind stars and under hills,
-And empty holes it fills.
-It comes first and follows after,
-Ends life, kills laughter.";
+$lvl3->question = "The cast member in the series dated a person who wore a shirt with the numbers of his/her year of birth.
+What is the number on the shirt? 
+(Clue: This number is a perfect prime number)";
 $lvl3->bgImg = "url('assets/img/alicesmaze_3.jpg')";
-$lvl3->key = "dark";
+$lvl3->key = "73";
 $lvl3->questionImg = null;
 $lvl3->color = "white";
 
@@ -55,80 +52,90 @@ $lvl4 = new Level();
 $lvl4->lvlHead = "Level 4: Maze of Riddles - 3rd Floor";
 $lvl4->lvl = "4";
 $lvl4->type = "basic";
-$lvl4->question = "A lotus leaf sprouts in a pond and doubles itself each day. On the 30th day it covers the entire pond, 
-on which day was the pond half covered";
+$lvl4->question = "A 10 digit number where the 1st digit represents the number of 0’s in the number, 
+2nd digit represents 1’s in the number and so on till 10th digit that represents the number of 9’s in the number. What is the number? ";
 $lvl4->bgImg = "url('assets/img/pond_4.jpg')";
-$lvl4->key = "29th";
+$lvl4->key = "6210001000";
 $lvl4->questionImg = null;
 $lvl4->color = "white";
 
 $lvl5 = new Level();
-$lvl5->lvlHead = "Level 5: Valley Of Dreams";
+$lvl5->lvlHead = "Level 5: Valley Of Dreams..";
 $lvl5->lvl = "5";
-$lvl5->type = "basic";
-$lvl5->question = "Who dares to pass through the gate..? Dites 'ami' et allez";
+$lvl5->type = "image";
+$lvl5->question = "In My Opinion, as distinct and singular as we are, If we join hands, we are all equal.";
 $lvl5->bgImg = "url('assets/img/gatekeeper_5.jpg')";
-$lvl5->key = "friend";
-$lvl5->questionImg = null;
+$lvl5->key = "72";
+$lvl5->questionImg = array("question_5.jpg");
 $lvl5->color = "white";
 
 $lvl6 = new Level();
 $lvl6->lvlHead = "Level 6: ";
 $lvl6->lvl = "6";
-$lvl6->type = "basic";
-$lvl6->question = "<b style='color:white'>The Treasure of Time is Timeless</b>";
-$lvl6->bgImg = "url('assets/img/time_6.jpg')";
-$lvl6->key = "the treasure of time is timeless";
-$lvl6->questionImg = null;
+$lvl6->type = "image";
+$lvl6->question = "I got lost in the Summit of letters";
+$lvl6->bgImg = "url('assets/img/bake_6.jpg')";
+$lvl6->key = "4";
+$lvl6->questionImg = array("question_6.jpg");
 $lvl6->color = "black";
 $lvl6->class = "";
 
 $lvl7 = new Level();
 $lvl7->lvl = "7";
 $lvl7->type = "custom";
-$lvl7->key = "golden key";
-$lvl7->filename = "levels/keys_lvl.php";
+$lvl7->key = "pass";
+$lvl7->filename = "levels/postion_lvl.php";
 
 
 $lvl8 = new Level();
 $lvl8->lvl = "8";
 $lvl8->type = "custom";
-$lvl8->key = "3rd postion";
-$lvl8->filename = "levels/postion_lvl.php";
+$lvl8->key = "golden key";
+$lvl8->filename = "levels/keys_lvl.php";
 
 $lvl9 = new Level();
 $lvl9->lvl = "9";
 $lvl9->type = "custom";
-$lvl9->key = "helium";
+$lvl9->key = "death";
 $lvl9->filename = "levels/shadowHidden_lvl.php";
 
 $lvl10 = new Level();
 $lvl10->lvl = "10";
 $lvl10->type = "custom";
-$lvl10->key = "coffee";
+$lvl10->key = "s vyfo iye";
 $lvl10->filename = "levels/title_lvl.php";
 
 $lvl11 = new Level();
 $lvl11->lvlHead = "Level 11: Valley of Images - 1st floor";
 $lvl11->lvl = "11";
 $lvl11->type = "image";
-$lvl11->question = "Find the connection bettween the images";
+$lvl11->question = "Find the product of the number of squares on chess board and the number of triangles in the following figure ";
 $lvl11->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl11->key = "monaco";
-$lvl11->questionImg = array("biscuit.jpg","3girls.jpg");
+$lvl11->key = "3264";
+$lvl11->questionImg = array("triangle_11.jpg");
 $lvl11->color = "black";
 
 $lvl11_1 = new Level();
 $lvl11_1->lvlHead = "Level 12: Valley of Images - 2nd FLoor";
 $lvl11_1->lvl = "12";
-$lvl11_1->type = "image";
-$lvl11_1->question = "Find the connection bettween the images";
-$lvl11_1->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl11_1->key = "ellen degeneres";
-$lvl11_1->questionImg = array("headsup.jpg","psych.jpg");
+$lvl11_1->type = "basic";
+$lvl11_1->question = " ";
+$lvl11_1->bgImg = "url('assets/img/random.jpg')";
+$lvl11_1->key = "trinity church cemetery";
+$lvl11_1->questionImg = null;
 $lvl11_1->color = "black";
 
+
 $lvl11_2 = new Level();
+$lvl11_2->lvlHead = "Level 3: Maze of Riddles - 2nd Floor";
+$lvl11_2->lvl = "3";
+$lvl11_2->type = "basic";
+$lvl11_2->question = "The host of this famous talk show divorced her spouse and they have an age difference of 15 years.  Name the show.";
+$lvl11_2->bgImg = "url('assets/img/alicesmaze_3.jpg')";
+$lvl11_2->key = "the ellen degeneres show";
+$lvl11_2->questionImg = null;
+$lvl11_2->color = "white";
+/*$lvl11_2 = new Level();
 $lvl11_2->lvlHead = "Level 13: Valley of Images - 3rd FLoor";
 $lvl11_2->lvl = "13";
 $lvl11_2->type = "image";
@@ -136,58 +143,57 @@ $lvl11_2->question = "Connect the images and find the personality";
 $lvl11_2->bgImg = "url('assets/img/whitebg.jpg')";
 $lvl11_2->key = "larry page";
 $lvl11_2->questionImg = array("kitty.jpg","102.jpg","103.jpg","aero.jpg");
-$lvl11_2->color = "black";
+$lvl11_2->color = "black";*/
 
 $lvl11_3 = new Level();
 $lvl11_3->lvlHead = "Level 14: Valley of Images - 4th FLoor";
 $lvl11_3->lvl = "14";
-$lvl11_3->type = "image";
-$lvl11_3->question = "Can you unmask the question";
+$lvl11_3->type = "basic";
+$lvl11_3->question = "I make what you see everyday, almost 93% of you to be precise. Just like my product delivers its pictures- precise.";
 $lvl11_3->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl11_3->key = "elon musk";
-$lvl11_3->questionImg = array("61kUW4gjE3L.jpg","bbt.jpg","105.jpg","zip.png");
+$lvl11_3->key = "samsung";
+$lvl11_3->questionImg = null;
 $lvl11_3->color = "black";
 
 $lvl12 = new Level();
 $lvl12->lvlHead = "Level 15: Valley of Images - 5th Floor";
 $lvl12->lvl = "15";
 $lvl12->type = "image";
-$lvl12->question = "Add three match sticks to get the highest three digit number. Get the Link between that number and the given images";
+$lvl12->question = "Solve the sudoku and find the sum of numbers marked within the range";
 $lvl12->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl12->key = "michigan";
-$lvl12->questionImg = array("12_a.jpg","12_b.jpg","12_c.jpg");
+$lvl12->key = "179";
+$lvl12->questionImg = array("sudoku.jpg");
 $lvl12->color = "black";
 
 $lvl13 = new Level();
 $lvl13->lvlHead = "Level 16: Valley of Images - 6th Floor";
 $lvl13->lvl = "16";
-$lvl13->type = "image";
-$lvl13->question = "Get the Link between the given images";
+$lvl13->type = "basic";
+$lvl13->question = "Use 3 of the following numbers that will add up to 30.
+a.	1,3,5,7,<b id='6'>9</b>,11,13,15 ";
 $lvl13->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl13->key = "alan shepard";
-$lvl13->questionImg = array("moon.jpg","golf.jpg");
+$lvl13->key = "61113";
+$lvl13->questionImg = null;
 $lvl13->color = "black";
 
 $lvl14 = new Level();
 $lvl14->lvlHead = "Level 17: Valley of Images - 7th Floor";
 $lvl14->lvl = "17";
 $lvl14->type = "image";
-$lvl14->question = "Get the Link between the given images";
+$lvl14->question = "The girl's python did not mind a white rabbit or a brown rabbit";
 $lvl14->bgImg = "url('assets/img/whiteBG.jpg')";
-$lvl14->key = "parvez rasool";
-$lvl14->questionImg = array("14_a.jpg","14_b.jpg");
+$lvl14->key = "vowpalwabbit";
+$lvl14->questionImg = array("17/17_1.jpg","17/17_2.jpg","17/17_3.jpg");
 $lvl14->color = "black";
 
 $lvl15 = new Level();
 $lvl15->lvlHead = "Level 18: Valley of Images - 8th Floor";
 $lvl15->lvl = "18";
 $lvl15->type = "image";
-$lvl15->question = "Reach a state of perfect happiness, oblivious of everything else.<br>
-I was born in 2001 almost extinct by 2014, still loved by many succeeded by a sloth.<br>
-Most of us must have seen some form of the below picture";
+$lvl15->question = "Not a snowflake’s chance one could solve this";
 $lvl15->bgImg = "url('assets/img/whiteBG.jpg')";
-$lvl15->key = "windows xp";
-$lvl15->questionImg = array("15.jpg");
+$lvl15->key = "mandelbrot set";
+$lvl15->questionImg = array("18/18_1.jpg","18/18_2.jpg","18/18_3.jpg");
 $lvl15->color = "black";
 
 $lvl16 = new Level();

@@ -12,7 +12,7 @@ $curr_lvl = $_SESSION['login_user_lvl'];
 $curr_email = $_SESSION['login_user_email'];
 
 $authlvl = 31;
-$getlvl = 27;
+$getlvl = 7;
 
 if(isset($_POST['submit']) || isset($_POST['key']) || (isset($_GET['key'])&&$curr_lvl==$getlvl)){
     $key_submitted = isset($_POST['key'])?$_POST['key']:$_GET['key'];

@@ -13,7 +13,8 @@ $(document).on('click','#key_anchor_2',function(){
 function endLoading(id){
     switch(id){
         case 1:
-        $("body").append("<div class='theme' style='color:black;font-size:5px'>helium</div>");
+        $("body").append("<div class='theme' style='color:black;font-size:5px'>death</div>");
+        console.log("here");
         break;
         case 2:
         document.title = "coffee";

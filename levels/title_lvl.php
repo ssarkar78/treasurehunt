@@ -5,7 +5,7 @@
     <p>Level 10: Tower of Concealed Tricks - 4th Floor </p>
 </div>
 <div class="prevent_sel" id="game_body">
-<p>Don't judge a book by its title</p>
+<p>Caesar proposed to Cleopatra without letting Calpurnia know</p>
 <form method='post'>Answer : <input name="key" type="text" autocomplete="off" >&nbsp;&nbsp;<input class="form-submit-button" type="submit" name="submit" value="Submit"></form>
 </div>
 </div>
