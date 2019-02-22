@@ -4,7 +4,7 @@
 switch($curr_lvl){
     case 29:
     echo "<script>$('.icon-medkit').css('visibility','visible')</script>";
-    echo "<script>$('#signature').attr('src','assets/img/bitesys_link.jpg')</script>";
+    echo "<script>$('#signature').attr('src','assets/img/bitesysiims.png')</script>";
     break;
 }
 

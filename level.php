@@ -292,14 +292,24 @@ $lvl23->key = "head n shoulders";
 $lvl23->questionImg =  array("28/1.jpg","28/2.jpg");
 $lvl23->color = "black";
 
+// $lvl24 = new Level();
+// $lvl24->lvlHead = "Level 29";
+// $lvl24->lvl = "29";
+// $lvl24->type = "image";
+// $lvl24->question = "Identify the link between these two pictures?";
+// $lvl24->bgImg = "url('assets/img/whitebg.jpg')";
+// $lvl24->key = "april bowlby";
+// $lvl24->questionImg = null;
+// $lvl24->color = "black";
+
 $lvl24 = new Level();
 $lvl24->lvlHead = "Level 29";
 $lvl24->lvl = "29";
 $lvl24->type = "image";
-$lvl24->question = "Identify the link between these two pictures?";
+$lvl24->question = "Its not like the others";
 $lvl24->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl24->key = "april bowlby";
-$lvl24->questionImg = null;
+$lvl24->key = "i luv encryption";
+$lvl24->questionImg = array("29a.jpg","29c.png");
 $lvl24->color = "black";
 
 $lvl29 = new Level();
