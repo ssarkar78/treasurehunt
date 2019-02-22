@@ -203,12 +203,14 @@ $lvl16->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img
 $lvl16->filename = "levels/puzzle_lvl.php";
 
 $lvl17 = new Level();
-$lvl17->lvlHead = "Level 19: Valley of Images - 9th Floor";
+$lvl17->lvlHead = "Level 19: Valley of Sounds";
 $lvl17->lvl = "20";
-$lvl17->type = "endFinal";
-$lvl17->question = "Connect the images<br>Hint: Tangle";
+$lvl17->type = "basic";
+$lvl17->question = "<audio controls=''>
+<source src='assets/img/20a.wav' type='audio/mpeg'/>
+</audio>";
 $lvl17->bgImg = "url('assets/img/whiteBG.jpg')";
-$lvl17->key = "";
+$lvl17->key = "holla";
 $lvl17->questionImg = null;
 $lvl17->color = "black";
 
