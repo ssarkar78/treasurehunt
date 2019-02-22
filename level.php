@@ -127,8 +127,8 @@ $lvl11_1->color = "black";
 
 
 $lvl11_2 = new Level();
-$lvl11_2->lvlHead = "Level 3: Maze of Riddles - 2nd Floor";
-$lvl11_2->lvl = "3";
+$lvl11_2->lvlHead = "Level 13: Maze of Riddles - 2nd Floor";
+$lvl11_2->lvl = "13";
 $lvl11_2->type = "basic";
 $lvl11_2->question = "The host of this famous talk show divorced her spouse and they have an age difference of 15 years.  Name the show.";
 $lvl11_2->bgImg = "url('assets/img/alicesmaze_3.jpg')";
@@ -166,7 +166,7 @@ $lvl12->questionImg = array("sudoku.jpg");
 $lvl12->color = "black";
 
 $lvl13 = new Level();
-$lvl13->lvlHead = "Level 16: Valley of Images - 6th Floor";
+$lvl13->lvlHead = "Level 16: Valley of Inverted - 6th Floor";
 $lvl13->lvl = "16";
 $lvl13->type = "basic";
 $lvl13->question = "Use 3 of the following numbers that will add up to 30.
@@ -207,7 +207,7 @@ $lvl17->lvlHead = "Level 19: Valley of Sounds";
 $lvl17->lvl = "20";
 $lvl17->type = "basic";
 $lvl17->question = "<audio controls=''>
-<source src='assets/img/20a.wav' type='audio/mpeg'/>
+<source src='assets/img/20	a.wav' type='audio/mpeg'/>
 </audio>";
 $lvl17->bgImg = "url('assets/img/whiteBG.jpg')";
 $lvl17->key = "holla";
