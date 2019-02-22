@@ -30,7 +30,7 @@ The first touches all the doors in multiples of 1. The second child touches all 
 this continues till the 100th child touches doors in multiples of 100.
 When the child touches a door, it either closes if it was opened and opens if it was closed.
 At the end, after all the children have touched their respective doors, a few of them remain open.
-What is the sum of all the doors that remain closed? ";
+What is the sum of all the doors that remain open? ";
 $lvl2->bgImg = "url('assets/img/maze_2.jpg')";
 $lvl2->key = "385";
 $lvl2->questionImg = null;
@@ -66,17 +66,17 @@ $lvl5->type = "image";
 $lvl5->question = "In My Opinion, as distinct and singular as we are, If we join hands, we are all equal.";
 $lvl5->bgImg = "url('assets/img/gatekeeper_5.jpg')";
 $lvl5->key = "72";
-$lvl5->questionImg = array("question_5.jpg");
+$lvl5->questionImg = array("question_5.JPG");
 $lvl5->color = "white";
 
 $lvl6 = new Level();
 $lvl6->lvlHead = "Level 6: ";
 $lvl6->lvl = "6";
 $lvl6->type = "image";
-$lvl6->question = "I got lost in the Summit of letters";
+$lvl6->question = "<b style='visibility:hidden'>I</b> got lost in the Summit of letters";
 $lvl6->bgImg = "url('assets/img/bake_6.jpg')";
 $lvl6->key = "4";
-$lvl6->questionImg = array("question_6.jpg");
+$lvl6->questionImg = array("question_6.JPG");
 $lvl6->color = "black";
 $lvl6->class = "";
 

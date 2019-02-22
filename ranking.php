@@ -36,7 +36,7 @@ if($result = $mysqli->query($query)){
 }
 
 
-?>
+?><div>Please check bitesys facebook page for level hints</div>
 </div>
 <?php include('footer.php'); ?>
 </body>
