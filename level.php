@@ -197,23 +197,19 @@ $lvl15->questionImg = array("18/18_1.jpg","18/18_2.jpg","18/18_3.jpg");
 $lvl15->color = "black";
 
 $lvl16 = new Level();
-$lvl16->lvlHead = "Level 19: Valley of Images - 9th Floor";
 $lvl16->lvl = "19";
-$lvl16->type = "endFinal";
-$lvl16->question = "Connect the images<br>Hint: Tangle";
-$lvl16->bgImg = "url('assets/img/whiteBG.jpg')";
-$lvl16->key = "iota";
-$lvl16->questionImg = null;
-$lvl16->color = "black";
+$lvl16->type = "custom";
+$lvl16->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
+$lvl16->filename = "levels/puzzle_lvl.php";
 
 $lvl17 = new Level();
-$lvl17->lvlHead = "Level 20: Valley of Images - 10th Floor";
+$lvl17->lvlHead = "Level 19: Valley of Images - 9th Floor";
 $lvl17->lvl = "20";
-$lvl17->type = "image";
-$lvl17->question = "Connect the images";
+$lvl17->type = "endFinal";
+$lvl17->question = "Connect the images<br>Hint: Tangle";
 $lvl17->bgImg = "url('assets/img/whiteBG.jpg')";
-$lvl17->key = "ios";
-$lvl17->questionImg = array("17_a.png","17_b.jpg","17_c.png");
+$lvl17->key = "";
+$lvl17->questionImg = null;
 $lvl17->color = "black";
 
 $lvl18 = new Level();
