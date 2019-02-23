@@ -269,7 +269,7 @@ $lvl21_1->type = "image";
 $lvl21_1->question = "Identify this movie and thus the actor who was executed in the other movie by the same writer?";
 $lvl21_1->bgImg = "url('assets/img/whitebg.jpg')";
 $lvl21_1->key = "graham greene";
-$lvl21_1->questionImg = array("24/24_a.jpg","24/24_b.jpg");
+$lvl21_1->questionImg = array("24/24_a.jpg","24/24_b.JPG");
 $lvl21_1->color = "black";
 
 $lvl22_2 = new Level();
