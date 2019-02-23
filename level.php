@@ -350,7 +350,7 @@ $lvl29->type = "image";
 $lvl29->question = "Identify the director";
 $lvl29->bgImg = "url('assets/img/whitebg.jpg')";
 $lvl29->key = "m. night shyamalan";
-$lvl29->questionImg = array("33_1.JPG","33_2.JPG","33_3.JPG");
+$lvl29->questionImg = array("33_1.jpg","33_2.jpg","33_3.jpg");
 $lvl29->color = "black";
 
 /*$lvl29 = new Level();
