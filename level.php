@@ -203,18 +203,37 @@ $lvl16->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img
 $lvl16->filename = "levels/puzzle_lvl.php";
 
 $lvl17 = new Level();
-$lvl17->lvlHead = "Level 19: Valley of Sounds";
+$lvl17->lvlHead = "Level 20";
 $lvl17->lvl = "20";
 $lvl17->type = "basic";
-$lvl17->question = "<audio controls=''>
-<source src='assets/img/20	a.wav' type='audio/mpeg'/>
-</audio>";
-$lvl17->bgImg = "url('assets/img/whiteBG.jpg')";
-$lvl17->key = "holla";
+$lvl17->question = "Play fair. Honesty is the key to perseverance";
+$lvl17->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl17->key = "qnkzoxsqnwbs";
 $lvl17->questionImg = null;
 $lvl17->color = "black";
 
+/*$lvl17 = new Level();
+$lvl17->lvlHead = "Level 19: Valley of Images - 9th Floor";
+$lvl17->lvl = "20";
+$lvl17->type = "endFinal";
+$lvl17->question = "Connect the images<br>Hint: Tangle";
+$lvl17->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvl17->key = "";
+$lvl17->questionImg = null;
+$lvl17->color = "black";*/
+
 $lvl18 = new Level();
+$lvl18->lvlHead = "Level 21";
+$lvl18->lvl = "21";
+$lvl18->type = "basic";
+$lvl18->question = "Imagine there are no rules, no restrictions and all you have to do is turn up with a demon on four wheel and race till you crash. 
+That is me in a nutshell. Banned for life, I still am credited to be the birthplace for some iconic cars.";
+$lvl18->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl18->key = "group b race";
+$lvl18->questionImg = null;
+$lvl18->color = "black";
+
+/*$lvl18 = new Level();
 $lvl18->lvlHead = "Level 21: Valley of Images - 11th Floor";
 $lvl18->lvl = "21";
 $lvl18->type = "image";
@@ -222,7 +241,7 @@ $lvl18->question = "Connect the images";
 $lvl18->bgImg = "url('assets/img/whiteBG.jpg')";
 $lvl18->key = "oneplus5t";
 $lvl18->questionImg = array("18_a.jpg","18_b.jpg","18_c.jpg");
-$lvl18->color = "black";
+$lvl18->color = "black";*/
 
 $lvl19 = new Level();
 $lvl19->lvlHead = "Level 22: Valley of Images - 12th FLoor";
