@@ -602,7 +602,7 @@ $lvl48->questionImg = null;
 $lvl48->color = "black";
 
 $endFinal = new Level();
-$endFinal->lvl = "48";
+$endFinal->lvl = "49";
 $endFinal->type = "endFinal";
 $endFinal->key = "qwe";
 
