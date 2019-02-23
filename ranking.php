@@ -30,13 +30,20 @@ $query = "SELECT * FROM user_details ORDER BY u_lvl desc, time asc limit 10";
 if($result = $mysqli->query($query)){
     echo "<div style='text-align:-webkit-center;text-align:-moz-center'><table border='1px solid white' cellpadding='5px'><tr><td width='250px'>Name</td><td style='text-align:center; width:50px'>Level</td><td style='text-align:center; width:250px'>Time</td></tr>";
     while($row=$result->fetch_row()){
-        echo "<tr><td>".$row[1]."</td><td style='text-align:center'>".$row[6]."</td><td style='text-align:center'>".date( "Y-M-d H:i:s", strtotime($row[7])+5.5*3600)."</td></tr>";
+       if($row[2]=="subhrajyoti17@iimshillong.ac.in" || $row[2]=="indrasis17@iimshillong.ac.in"){
+        $img = "<img witdth='20px' height='20px' src='assets/img/crown.png'></img>";
+       }
+       else{
+        $img="";
+       }
+        echo "<tr><td>".$row[1].$img."</td><td style='text-align:center'>".$row[6]."</td><td style='text-align:center'>".date( "Y-M-d H:i:s", strtotime($row[7])+5.5*3600)."</td></tr>";
     }
     echo "</table></div>";
 }
 
 
 ?><div>Please check bitesys facebook page for level hints</div>
+<img witdth='20px' height='20px' src='assets/img/crown.png'></img> : Last Year Winners
 </div>
 <?php include('footer.php'); ?>
 </body>
