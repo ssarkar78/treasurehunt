@@ -229,7 +229,7 @@ $lvl18->type = "basic";
 $lvl18->question = "Imagine there are no rules, no restrictions and all you have to do is turn up with a demon on four wheel and race till you crash. 
 That is me in a nutshell. Banned for life, I still am credited to be the birthplace for some iconic cars.";
 $lvl18->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl18->key = "group b race";
+$lvl18->key = "group b rally";
 $lvl18->questionImg = null;
 $lvl18->color = "black";
 
