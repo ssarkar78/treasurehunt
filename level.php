@@ -433,9 +433,9 @@ $lvlc = new Level();
 $lvlc->lvlHead = "Level 35";
 $lvlc->lvl = "35";
 $lvlc->type = "basic";
-$lvlc->question = "The lead characters from these two series are addicted to narcotics, solve cases and love music.  Guess these two characters.";
+$lvlc->question = "The lead characters from these two series are addicted to narcotics, solve cases and love music.  One is based on the other, who would that be?";
 $lvlc->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlc->key = "sherlock holmes, dr. gregory";
+$lvlc->key = "gregory house";
 $lvlc->questionImg = null;
 $lvlc->color = "black";
 
