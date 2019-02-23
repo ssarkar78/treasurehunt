@@ -433,14 +433,9 @@ $lvlc = new Level();
 $lvlc->lvlHead = "Level 35";
 $lvlc->lvl = "35";
 $lvlc->type = "basic";
-$lvlc->question = "U r caught in a room... password is ****<br>
-Riddle is - manish knows the product of the no.s and Ashish knows the sum of the no.s<br>
-Manish - i cant tell u the 2 no.s<br>
-Aashish  - i knew u couldnt<br>
-Manish - now i know what the 2 no.s are</br>
-Aashish - Now i also know the no.s</br>";
+$lvlc->question = "The lead characters from these two series are addicted to narcotics, solve cases and love music.  Guess these two characters.";
 $lvlc->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlc->key = "1752";
+$lvlc->key = "sherlock holmes, dr. gregory";
 $lvlc->questionImg = null;
 $lvlc->color = "black";
 
@@ -448,19 +443,21 @@ $lvld = new Level();
 $lvld->lvlHead = "Level 36";
 $lvld->lvl = "36";
 $lvld->type = "basic";
-$lvld->question = "let the children come<br> Hint: The actual question is 'what you see right now is made by me'";
+$lvld->question = "This character played the role of a bisexual in a series and later acted in another series where he/she was referred using a number.  
+Guess the actor’s name.";
 $lvld->bgImg = "url('assets/img/whitebg.jpg')";
-$lvld->key = "tim berners-lee";
+$lvld->key = "olivia wilde";
 $lvld->questionImg = null;
 $lvld->color = "black";
+
 
 $lvle = new Level();
 $lvle->lvlHead = "Level 37";
 $lvle->lvl = "37";
 $lvle->type = "basic";
-$lvle->question = "<a href='https://www.youtube.com/watch?v=sDjI020jw7A'>LINK</a>";
+$lvle->question = "If 4+5+6 = 203038, 5+6+7 = 304258, 6+7+8 = ? ";
 $lvle->bgImg = "url('assets/img/whitebg.jpg')";
-$lvle->key = "susan wojcicki";
+$lvle->key = "425682";
 $lvle->questionImg = null;
 $lvle->color = "black";
 
