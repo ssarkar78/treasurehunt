@@ -156,7 +156,7 @@ $lvl11_3->questionImg = null;
 $lvl11_3->color = "black";
 
 $lvl12 = new Level();
-$lvl12->lvlHead = "Level 15: Valley of Images - 5th Floor";
+$lvl12->lvlHead = "Level 15: Valley of Images - <b>-1</b> Floor";
 $lvl12->lvl = "15";
 $lvl12->type = "image";
 $lvl12->question = "Solve the sudoku and find the sum of numbers marked within the range";
@@ -266,7 +266,7 @@ $lvl21_1 = new Level();
 $lvl21_1->lvlHead = "Level 24: Valley of Images - 13th FLoor";
 $lvl21_1->lvl = "24";
 $lvl21_1->type = "image";
-$lvl21_1->question = "Identify this movie and thus the actor who was executed in the other movie by the same writer?";
+$lvl21_1->question = "Identify this movie and thus enter the actor who was executed in the other movie by the same writer";
 $lvl21_1->bgImg = "url('assets/img/whitebg.jpg')";
 $lvl21_1->key = "graham greene";
 $lvl21_1->questionImg = array("24/24_a.jpg","24/24_b.JPG");
@@ -513,9 +513,9 @@ $lvlEnd = new Level();
 $lvlEnd->lvlHead = "Level 41";
 $lvlEnd->lvl = "41";
 $lvlEnd->type = "basic";
-$lvlEnd->question = "put 'one' and submit";
+$lvlEnd->question = "There are 5 robbers in a house. Robbers have hierarchy R1, R2, R3, R4 and R5. R1 designation is the highest and R5 is the lowest. These robbers have three characteristics : a. Every robber is so greedy that he can even take lives to make more money. b. Every robber desperately wants to stay alive. c. They are all very intelligent. There are total 100 diamonds in the house. The person with the highest designation is expected to make the distribution. If the majority on the group does not agree to the distribution proposed, the highest designation pirate will be killed. Only the person with the highest designation can be killed at any moment. What is the right distribution of diamonds proposed by the R1 so that he is not killed and does make maximum amount? (For eg. If you’re answer is 40,00,20,20,20 – write as 4000202020)";
 $lvlEnd->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlEnd->key = "one";
+$lvlEnd->key = "9800010001";
 $lvlEnd->questionImg = null;
 $lvlEnd->color = "black";
 
@@ -523,34 +523,29 @@ $lvli = new Level();
 $lvli->lvlHead = "Level 42";
 $lvli->lvl = "42";
 $lvli->type = "basic";
-$lvli->question = '600233266<br>Hint 1: 1st step get the ip from the question';
+$lvli->question = 'X and Y played the lead roles in a TV series after having played the role of pilots in a film.  Name the TV series. (Clue: This film was a parody of a feature film that was released in 1986)';
 $lvli->bgImg = "url('assets/img/whitebg.jpg')";
-$lvli->key = "www.bitesysiims.org";
+$lvli->key = "two and a half men";
 $lvli->questionImg = null;
 $lvli->color = "black";
 
 $lvlj = new Level();
 $lvlj->lvlHead = "Level 43";
 $lvlj->lvl = "43";
-$lvlj->type = "basic";
-$lvlj->question = '<audio controls="">
-<source src="assets/img/xyz.mp3" type="audio/mpeg"/>
-</audio>';
+$lvlj->type = "image";
+$lvlj->question = "This is an epic question";
 $lvlj->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlj->key = "james bond theme";
-$lvlj->questionImg = null;
+$lvlj->key = "odyssey";
+$lvlj->questionImg =  array("43_a.gif","43_b.gif");
 $lvlj->color = "black";
 
 $lvlk = new Level();
 $lvlk->lvlHead = "Level 44";
 $lvlk->lvl = "44";
 $lvlk->type = "basic";
-$lvlk->question = 'It was the best of times 
-It was the worst of times
-Away with the worst 
-And I get a spark of __<br>HINT :"Away with the worst times" you are left with..';
+$lvlk->question = 'An insect mutation was named after one of the main characters of this show.  Name the TV show. (Clue: The character name was also part of the former name of a famous TV series)';
 $lvlk->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlk->key = "madness";
+$lvlk->key = "south park";
 $lvlk->questionImg = null;
 $lvlk->color = "black";
 
@@ -558,21 +553,21 @@ $lvln = new Level();
 $lvln->lvlHead = "Level 45";
 $lvln->lvl = "45";
 $lvln->type = "basic";
-$lvln->question = 'He commented on me at the zoo';
+$lvln->question = 'A XY pound weight broke into X pieces. However, it was found that it could weigh out any amount of flour, from 1 pound to XY pounds, using these X pieces using a balance. What were the weights of the X pieces? (Write them as a single number in ascending order of their weights)';
 $lvln->bgImg = "url('assets/img/whitebg.jpg')";
-$lvln->key = "interesting";
+$lvln->key = "13927";
 $lvln->questionImg = null;
 $lvln->color = "black";
 
-$lvlaa = new Level();
-$lvlaa->lvlHead = "Level 46";
-$lvlaa->lvl = "46";
-$lvlaa->type = "image";
-$lvlaa->question = "Connect";
-$lvlaa->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlaa->key = "flintheart glomgold";
-$lvlaa->questionImg =  array("101.jpg","101_a.jpg","101_b.jpg","101_c.jpg");
-$lvlaa->color = "black";
+$lvln = new Level();
+$lvln->lvlHead = "Level 46";
+$lvln->lvl = "46";
+$lvln->type = "basic";
+$lvln->question = 'This show was created by twin brothers and the music was composed by two members of an electronic band that was formed in Texas.  Name the band.';
+$lvln->bgImg = "url('assets/img/whitebg.jpg')";
+$lvln->key = "survive";
+$lvln->questionImg = null;
+$lvln->color = "black";
 
 $lvlaaa = new Level();
 $lvlaaa->lvlHead = "Level 47";
