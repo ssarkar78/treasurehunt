@@ -377,14 +377,26 @@ $lvl30->key = "";
 $lvl30->filename = "levels/auth_lvl.php";*/
 
 $lvlz = new Level();
-$lvlz->lvlHead = "Level 32";
+$lvlz->lvlHead = "Level 32: Valley of Sounds";
 $lvlz->lvl = "32";
 $lvlz->type = "basic";
-$lvlz->question = "25.5788|91.8933";
-$lvlz->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlz->key = "shillong";
+$lvlz->question = "<audio controls=''>
+<source src='assets/img/20	a.wav' type='audio/mpeg'/>
+</audio>";
+$lvlz->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvlz->key = "holla";
 $lvlz->questionImg = null;
-$lvlz->color = "white";
+$lvlz->color = "black";
+
+// $lvlz = new Level();
+// $lvlz->lvlHead = "Level 32 : Valley of Sounds";
+// $lvlz->lvl = "32";
+// $lvlz->type = "basic";
+// $lvlz->question = "25.5788|91.8933";
+// $lvlz->bgImg = "url('assets/img/whitebg.jpg')";
+// $lvlz->key = "shillong";
+// $lvlz->questionImg = null;
+// $lvlz->color = "white";
 
 $lvla = new Level();
 $lvla->lvlHead = "Level 33";
@@ -396,15 +408,26 @@ $lvla->key = "lucas numbers";
 $lvla->questionImg = null;
 $lvla->color = "black";
 
+
 $lvlb = new Level();
 $lvlb->lvlHead = "Level 34";
 $lvlb->lvl = "34";
-$lvlb->type = "basic";
-$lvlb->question = ".-- .... ---<br>Hint: Someone related to it";
+$lvlb->type = "image";
+$lvlb->question = "Its not what you think";
 $lvlb->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlb->key = "tedros adhanom";
-$lvlb->questionImg = null;
-$lvlb->color = "white";
+$lvlb->key = "i luv encryption";
+$lvlb->questionImg = array("29a.jpg","29c.png");
+$lvlb->color = "black";
+
+// $lvlb = new Level();
+// $lvlb->lvlHead = "Level 34";
+// $lvlb->lvl = "34";
+// $lvlb->type = "basic";
+// $lvlb->question = ".-- .... ---<br>Hint: Someone related to it";
+// $lvlb->bgImg = "url('assets/img/whitebg.jpg')";
+// $lvlb->key = "tedros adhanom";
+// $lvlb->questionImg = null;
+// $lvlb->color = "white";
 
 $lvlc = new Level();
 $lvlc->lvlHead = "Level 35";
