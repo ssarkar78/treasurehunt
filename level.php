@@ -326,24 +326,55 @@ $lvl23->color = "black";
 $lvl24 = new Level();
 $lvl24->lvlHead = "Level 29";
 $lvl24->lvl = "29";
+$lvl24->type = "basic";
+$lvl24->question = "What do a wrestling coach, paper company office manager and electronics salesman have in common?";
+$lvl24->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl24->key = "steve carell";
+$lvl24->questionImg = null;
+$lvl24->color = "white";
+
+/*$lvl24 = new Level();
+$lvl24->lvlHead = "Level 29";
+$lvl24->lvl = "29";
 $lvl24->type = "image";
 $lvl24->question = "Its not like the others";
 $lvl24->bgImg = "url('assets/img/whitebg.jpg')";
 $lvl24->key = "i luv encryption";
 $lvl24->questionImg = array("29a.jpg","29c.png");
-$lvl24->color = "black";
+$lvl24->color = "black";*/
 
 $lvl29 = new Level();
+$lvl29->lvlHead = "Level 30";
+$lvl29->lvl = "30";
+$lvl29->type = "image";
+$lvl29->question = "Identify the director";
+$lvl29->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl29->key = "m. night shyamalan";
+$lvl29->questionImg = array("33_1.jpg","33_2.jpg","33_3.jpg");
+$lvl29->color = "black";
+
+/*$lvl29 = new Level();
 $lvl29->lvl = "30";
 $lvl29->type = "custom";
 $lvl29->key = "voidimg15img14img13img12img11img10img9img8img7img6img5img4img3img2img1";
-$lvl29->filename = "levels/puzzle_lvl.php";
+$lvl29->filename = "levels/puzzle_lvl.php";*/
 
 $lvl30 = new Level();
+$lvl30->lvlHead = "Level 31";
+$lvl30->lvl = "31";
+$lvl30->type = "basic";
+$lvl30->question = "Name the pop rock duo who sung the theme song of the show that became the no. 1 single on American pop charts 
+(Clue: All the characters in this show are named after a soap opera that was aired by ABC)";
+$lvl30->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl30->key = "the rembrandts";
+$lvl30->questionImg = null;
+$lvl30->color = "white";
+
+/*$lvl30 = new Level();
 $lvl30->lvl = "31";
 $lvl30->type = "custom";
 $lvl30->key = "";
-$lvl30->filename = "levels/auth_lvl.php";
+$lvl30->filename = "levels/auth_lvl.php";*/
 
 $lvlz = new Level();
 $lvlz->lvlHead = "Level 32";
