@@ -499,11 +499,14 @@ $lvlg->color = "black";
 $lvlh = new Level();
 $lvlh->lvlHead = "Level 40";
 $lvlh->lvl = "40";
-$lvlh->type = "image";
-$lvlh->question = "The time should be";
+$lvlh->type = "basic";
+$lvlh->question = "You have 999 cakes, one of which is rotten. 
+You would like to find out which cake is rotten by making a few men eat the cake. 
+A cake can be divided into as many as 999 slices and if a man eats a slice of rotten cake, he would die in 10 mins.
+A man can eat more than 1 slice. What are the minimum number of men that are required through which you’ll be able to find out the rotten cake in 10 mins?";
 $lvlh->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlh->key = "10:10";
-$lvlh->questionImg =  array("clock.jpg");
+$lvlh->key = "10";
+$lvlh->questionImg =  null;
 $lvlh->color = "black";
 
 $lvlEnd = new Level();
