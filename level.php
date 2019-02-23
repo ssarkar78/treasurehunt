@@ -463,26 +463,26 @@ $lvle->color = "black";
 
 
 $lvlf = new Level();
-$lvlz->lvlHead = "Level 38";
-$lvlz->lvl = "38";
-$lvlz->type = "basic";
-$lvlz->question = "<audio controls=''>
-<source src='assets/img/audio.mp3' type='audio/mpeg'/>
-</audio> Identify the breed of dog that is featured in this show";
-$lvlz->bgImg = "url('assets/img/whiteBG.jpg')";
-$lvlz->key = "australian cobberdog";
-$lvlz->questionImg = null;
-$lvlz->color = "black";
-
-$lvlf = new Level();
 $lvlf->lvlHead = "Level 38";
 $lvlf->lvl = "38";
 $lvlf->type = "basic";
-$lvlf->question = ": ( ) {  : | :  &  } ; :     :'I ran here 1st'";
-$lvlf->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlf->key = "ibm system 360";
+$lvlf->question = "<audio controls=''>
+<source src='assets/img/audio.mp3' type='audio/mpeg'/>
+</audio> Identify the breed of dog that is featured in this show";
+$lvlf->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvlf->key = "australian cobberdog";
 $lvlf->questionImg = null;
 $lvlf->color = "black";
+
+// $lvlf = new Level();
+// $lvlf->lvlHead = "Level 38";
+// $lvlf->lvl = "38";
+// $lvlf->type = "basic";
+// $lvlf->question = ": ( ) {  : | :  &  } ; :     :'I ran here 1st'";
+// $lvlf->bgImg = "url('assets/img/whitebg.jpg')";
+// $lvlf->key = "ibm system 360";
+// $lvlf->questionImg = null;
+// $lvlf->color = "black";
 
 $lvlg = new Level();
 $lvlg->lvlHead = "Level 39";
