@@ -461,6 +461,19 @@ $lvle->key = "425682";
 $lvle->questionImg = null;
 $lvle->color = "black";
 
+
+$lvlf = new Level();
+$lvlz->lvlHead = "Level 38";
+$lvlz->lvl = "38";
+$lvlz->type = "basic";
+$lvlz->question = "<audio controls=''>
+<source src='assets/img/audio.mp3' type='audio/mpeg'/>
+</audio> Identify the breed of dog that is featured in this show";
+$lvlz->bgImg = "url('assets/img/whiteBG.jpg')";
+$lvlz->key = "australian cobberdog";
+$lvlz->questionImg = null;
+$lvlz->color = "black";
+
 $lvlf = new Level();
 $lvlf->lvlHead = "Level 38";
 $lvlf->lvl = "38";
