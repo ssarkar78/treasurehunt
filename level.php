@@ -488,9 +488,10 @@ $lvlg = new Level();
 $lvlg->lvlHead = "Level 39";
 $lvlg->lvl = "39";
 $lvlg->type = "basic";
-$lvlg->question = '<a href="assets/img/file91.txt">I\'m this.</a>';
+$lvlg->question = 'They accuse me of seeking money,  
+I like windows plenty, I don’t work with the Trojans, yet I am feared by many';
 $lvlg->bgImg = "url('assets/img/whitebg.jpg')";
-$lvlg->key = "wakanda";
+$lvlg->key = "wannacry";
 $lvlg->questionImg = null;
 $lvlg->color = "black";
 
