@@ -1,6 +1,6 @@
 <?php
 $url1=$_SERVER['REQUEST_URI'];
-header("Refresh: 120; URL=$url1");
+header("Refresh: 180; URL=$url1");
 ?>
 <script>
 
@@ -45,7 +45,7 @@ header("Refresh: 120; URL=$url1");
     </body>
     <script>
     document.getElementById('timer').innerHTML =
-  02 + ":" + 00;
+  03 + ":" + 00;
 startTimer();
 
 function startTimer() {
