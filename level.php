@@ -582,8 +582,8 @@ $lvlaa->color = "black";
 // $lvlaaa->color = "black";
 
 $lvl48 = new Level();
-$lvl48->lvlHead = "Level 48";
-$lvl48->lvl = "48";
+$lvl48->lvlHead = "Level 47";
+$lvl48->lvl = "47";
 $lvl48->type = "basic";
 $lvl48->question = "<audio controls=''>
 <source src='assets/img/48_audio.mp3' type='audio/mpeg'/>
@@ -594,8 +594,8 @@ $lvl48->questionImg = null;
 $lvl48->color = "black";
 
 $lvlaaa = new Level();
-$lvlaaa->lvlHead = "Level 47";
-$lvlaaa->lvl = "47";
+$lvlaaa->lvlHead = "Level 48";
+$lvlaaa->lvl = "48";
 $lvlaaa->type = "basic";
 $lvlaaa->question = 'A hocrux is an object that contains a fragment of a wizard’s soul. Voldemort has fragmented his soul into 7 hocruxes and hidden them in different parts of the wizarding world. Harry Potter, Hermoine Granger and Ron Weasley are hunting the hocruxes to kill him and save the world from evil. The latitude co-ordinates of the hocrux location is the same as A, the country where the lead role of a comedy show is attempting to bring the character’s story to life.  Name the country.';
 $lvlaaa->bgImg = "url('assets/img/47_bg.jpg')";
