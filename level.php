@@ -603,6 +603,16 @@ $lvlaaa->key = "ukraine";
 $lvlaaa->questionImg = null;
 $lvlaaa->color = "black";
 
+$lvl_49 = new Level();
+$lvl_49->lvlHead = "Level 49";
+$lvl_49->lvl = "49";
+$lvl_49->type = "image";
+$lvl_49->question = 'I do see the beauty in the rules, the invisible code of chaos hiding behind the menacing face of order';
+$lvl_49->bgImg = "url('assets/img/whitebg.jpg')";
+$lvl_49->key = "winner winner chicken dinner";
+$lvl_49->questionImg = array("rob.png");
+$lvl_49->color = "black";
+
 $endFinal = new Level();
 $endFinal->lvl = "49";
 $endFinal->type = "endFinal";
@@ -615,6 +625,6 @@ $endFinal->key = "qwe";
 
 $levels = array("",$lvl1,$lvl2,$lvl3,$lvl4,$lvl5,$lvl6,$lvl7,$lvl8,$lvl9,$lvl10,$lvl11,$lvl11_1,$lvl11_2,$lvl11_3,
 $lvl12,$lvl13,$lvl14,$lvl15,$lvl16,$lvl17,$lvl18,$lvl19,$lvl20,$lvl21_1,$lvl22_2,$lvl21,$lvl22,$lvl23,$lvl24,$lvl29,$lvl30,$lvlz,$lvla,$lvlb,$lvlc,$lvld,$lvle,$lvlf,
-$lvlg,$lvlh,$lvlEnd,$lvli,$lvlj,$lvlk,$lvln,$lvlaa, $lvl48, $lvlaaa, $endFinal);
+$lvlg,$lvlh,$lvlEnd,$lvli,$lvlj,$lvlk,$lvln,$lvlaa, $lvl48, $lvlaaa,$lvl_49, $endFinal);
 
 ?>

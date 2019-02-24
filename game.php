@@ -14,6 +14,10 @@ $curr_email = $_SESSION['login_user_email'];
 $authlvl = 31;
 $getlvl = 7;
 
+if($curr_lvl==49){
+    header('key: winner winner chicken dinner');
+}
+
 if(isset($_POST['submit']) || isset($_POST['key']) || (isset($_GET['key'])&&$curr_lvl==$getlvl)){
     $key_submitted = isset($_POST['key'])?$_POST['key']:$_GET['key'];
     $key_submitted = strtolower($key_submitted);
