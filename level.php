@@ -309,7 +309,7 @@ $lvl23->lvl = "28";
 $lvl23->type = "image";
 $lvl23->question = "After looking at the given pictures, which brand comes to mind?";
 $lvl23->bgImg = "url('assets/img/whitebg.jpg')";
-$lvl23->key = "head n shoulders";
+$lvl23->key = "head & shoulders";
 $lvl23->questionImg =  array("28/1.jpg","28/2.jpg");
 $lvl23->color = "black";
 
