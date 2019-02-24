@@ -569,15 +569,7 @@ $lvlaa->key = "survive";
 $lvlaa->questionImg = null;
 $lvlaa->color = "black";
 
-$lvlaaa = new Level();
-$lvlaaa->lvlHead = "Level 47";
-$lvlaaa->lvl = "47";
-$lvlaaa->type = "basic";
-$lvlaaa->question = 'A hocrux is an object that contains a fragment of a wizard’s soul. Voldemort has fragmented his soul into 7 hocruxes and hidden them in different parts of the wizarding world. Harry Potter, Hermoine Granger and Ron Weasley are hunting the hocruxes to kill him and save the world from evil. The latitude co-ordinates of the hocrux location is the same as A, the country where the lead role of a comedy show is attempting to bring the character’s story to life.  Name the country.';
-$lvlaaa->bgImg = "url('assets/img/47_bg.jpg')";
-$lvlaaa->key = "ukraine";
-$lvlaaa->questionImg = null;
-$lvlaaa->color = "black";
+
 
 // $lvlaaa = new Level();
 // $lvlaaa->lvlHead = "Level 47";
@@ -601,6 +593,16 @@ $lvl48->key = "tim baltz";
 $lvl48->questionImg = null;
 $lvl48->color = "black";
 
+$lvlaaa = new Level();
+$lvlaaa->lvlHead = "Level 47";
+$lvlaaa->lvl = "47";
+$lvlaaa->type = "basic";
+$lvlaaa->question = 'A hocrux is an object that contains a fragment of a wizard’s soul. Voldemort has fragmented his soul into 7 hocruxes and hidden them in different parts of the wizarding world. Harry Potter, Hermoine Granger and Ron Weasley are hunting the hocruxes to kill him and save the world from evil. The latitude co-ordinates of the hocrux location is the same as A, the country where the lead role of a comedy show is attempting to bring the character’s story to life.  Name the country.';
+$lvlaaa->bgImg = "url('assets/img/47_bg.jpg')";
+$lvlaaa->key = "ukraine";
+$lvlaaa->questionImg = null;
+$lvlaaa->color = "black";
+
 $endFinal = new Level();
 $endFinal->lvl = "49";
 $endFinal->type = "endFinal";
@@ -613,6 +615,6 @@ $endFinal->key = "qwe";
 
 $levels = array("",$lvl1,$lvl2,$lvl3,$lvl4,$lvl5,$lvl6,$lvl7,$lvl8,$lvl9,$lvl10,$lvl11,$lvl11_1,$lvl11_2,$lvl11_3,
 $lvl12,$lvl13,$lvl14,$lvl15,$lvl16,$lvl17,$lvl18,$lvl19,$lvl20,$lvl21_1,$lvl22_2,$lvl21,$lvl22,$lvl23,$lvl24,$lvl29,$lvl30,$lvlz,$lvla,$lvlb,$lvlc,$lvld,$lvle,$lvlf,
-$lvlg,$lvlh,$lvlEnd,$lvli,$lvlj,$lvlk,$lvln,$lvlaa,$lvlaaa,$lvl47, $lvl48, $endFinal);
+$lvlg,$lvlh,$lvlEnd,$lvli,$lvlj,$lvlk,$lvln,$lvlaa, $lvl48, $lvlaaa, $endFinal);
 
 ?>
